@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.pornomix"
+  version="0.0.1"
+  name="TVsupertuga"
+  provider-name="xbmc-adult">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Reproduzir vídeos de sites de streaming diferente adultos</summary>
+    <description>Este addon reproduz vídeos a partir YouPorn, Tube8, Boysfood, moviesand, PornoTube, xHamster, KeezMovies e alguns outros sites adultos não streaming. Ele contém material adulto explícito. Você só pode visualizar este addon se você tem pelo menos 18 anos de idade, ou, pelo menos, a idade de maioridade na jurisdição onde reside ou do qual você acessar este conteúdo. Se você não atender a esses requisitos, então você não tem permissão para usar este addon. </ Description>
+     <Aviso> O autor não hospedar ou distribuir qualquer conteúdo exibido por este addon. O autor não tem qualquer afiliação com o provedor de conteúdo.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
